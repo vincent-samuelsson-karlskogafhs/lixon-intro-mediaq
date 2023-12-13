@@ -23,3 +23,14 @@ Here us a basic example:
 screen: specifies that the styles within the media query should only apply to devices with screens. (not devices that might not have screen, like printers)
 (max-width: 600px): this is the condition that must be true in order for the styles within the media query to be applied. In this case, the styles will only apply if the screen width is 600px or less.
 There are many more ways you can specify your condition, but in the majority of cases we use max-width or something that is called min-width.
+
+Standard Breakpoints - Media Queries
+The size on the media query above as an arbitrary value that I just picked, but this is of course up to the developer to choose. There exists sort of standard values in the IT business, I say sort of because there are many variants. But the standard values are as follows according to the developing tools in Chrome:
+
+4K: Screens larger than 2560px
+Laptop L: Larger than 1440px
+Laptop: larger than 1024px
+Tablet: larger than 768px
+Mobile L: larger than 425px
+Mobile M: larger than 375px
+Mobile S: larger than 320px
